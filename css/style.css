@@ -1,0 +1,103 @@
+.banner-image{
+    background-image: url('../img/img.jpg');
+    background-size: cover;
+    background-color: blue;
+    opacity: 50%;
+}
+.color{
+    opacity: 100%;
+}
+.banner1-image{
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-color: blue;
+    opacity: 50%;
+
+}
+.textnav{
+    transform:translate(0,-350px);
+}
+.card1{
+   background-color: white;
+   width: 40px;
+   height: 30px;
+   justify-content: center;
+   align-items: center;
+   border:1px solid white;
+   border-radius: 10%;
+}
+.parent{
+    border:1px solid white;
+    height: 80px;
+}
+.link{
+    text-decoration: none;
+}
+.transform{
+    transform:translate(0,-60px);
+}
+.Instructor{
+    height: 1000px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.Course{
+    height: 1000px;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.img1{
+    border:1px solid rgb(165, 209, 224);
+    border-radius: 100%;
+    background-color: white;
+
+}
+.bg{
+    color: rgba(177, 173, 173, 0.945);
+}
+.video{
+    width: 500px;
+    height: 400px;
+    background-color: lightblue;
+}
+.vid{
+    width: 500px;
+    height: 350px;
+    transform:translate(-50px,-5px);
+}
+.cards{
+    box-shadow:inset 0px 0px 103px 0px rgba(228, 223, 223, 0.75);
+}
+.sli{
+    width: 5%;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.facebook{
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.foot{
+    height: 500px;
+}
+.about{
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+@media screen and (max-width:1400px) {
+    html{
+        font-size: 16px;
+    }
+ nav button{
+    display: block;
+ }
+   nav ul{
+    display: none;
+   } 
+   nav{
+    padding: 0 50px;
+   }
+}
